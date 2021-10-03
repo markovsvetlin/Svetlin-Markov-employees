@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+table {
+  border-collapse: collapse;
+}
+
+.app__container {
+  width: 50%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.upload__button {
+  padding: 20px;
+  background: #3b5998;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.result__table {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.table__heading th {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.table__elements td {
+  border: 1px solid black;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 18px;
+}
